@@ -78,19 +78,22 @@ h1, h2, h3, h4, h5 {
 
 .nav-logo-container {
   justify-content: space-between;
+  margin-top: 26px;
 }
 
 .header-section {
   justify-content: space-around;
-  margin: 60px 0px;
+  justify-content: space-around;
+  margin: 40px 45px 53px 154px;
+  padding-bottom: 20px;
   padding-bottom: 20px;
 }
 
 #header-nav {
   display: inline-flex;
-  width: 75%;
+  width: 70%;
   flex-direction: row;
-  margin: 40px 0px;
+  margin: 40px 20px;
   justify-content: space-between;
 }
 
@@ -104,7 +107,7 @@ h1, h2, h3, h4, h5 {
   width: 24%;
   flex-direction: row;
   justify-content: flex-end;
-  margin: 30px 0px 30px 50px;
+  margin: 30px 22px 30px 50px;
 }
 
 .logo {
@@ -119,14 +122,19 @@ h1, h2, h3, h4, h5 {
 }
 
 h1 {
-  font-size: 80px;
+  font-size: 75px;
   text-align: center;
+  margin: 2px 85px 17px 0px;
+}
+
+.header-button-container {
+  margin: 0px 65px 5px 0px;
 }
 
 .header-button {
   border: 1px solid black;
-  font-size: 20px;
-  padding: 5px 40px;
+  font-size: 16px;
+  padding: 5px 41px;
 }
 
 .snippet-image-container {
@@ -138,15 +146,15 @@ h1 {
   display: flex;
   flex-direction: column;
   border-top: 1px solid black;
-  margin: 0px 50px 50px;
-  padding-top: 50px;
+  margin: 0px 70px 0px 70px;
+  padding: 39px 20px 0px 0px;
 }
 
 #footer {
   border-top: 1px solid black;
   display: flex;
   flex-direction: column;
-  margin: 0px 50px 50px;
+  margin: 0px 70px 0px 70px;
 }
 
 .main-container-top, .main-container-middle, .main-container-bottom {
@@ -160,11 +168,11 @@ h1 {
 
 .main-container-middle {
   justify-content: center;
-  margin: 50px 0px;
+  margin: 38px 0px 30px 0px;
 }
 
 .main-container-bottom {
-
+  padding-bottom: 30px;
 }
 
 .section-features {
@@ -187,14 +195,14 @@ h1 {
 }
 
 .footer-header {
-  padding-top: 50px;
+  padding-top: 40px;
 }
 
 .copyright-container {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin: 60px 0px;
+  margin: 40px 0px 50px;
 }
 
 .copyright {
