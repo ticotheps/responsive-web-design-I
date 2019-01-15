@@ -1,6 +1,3 @@
-/* These rules are for screen sizes that are 1024px or smaller */
-@media (max-width: 1024px) {
-    
   /* http://meyerweb.com/eric/tools/css/reset/ 
     v2.0 | 20110126
     License: none (public domain)
@@ -33,6 +30,7 @@
   }
   body {
     line-height: 1;
+    width: 1024px;
   }
   ol, ul {
     list-style: none;
@@ -67,6 +65,11 @@
   }
 
   /* Your code starts here! */
+
+  html {
+    display: flex;
+    justify-content: center;
+  }
 
   .body-header {
     display: flex;
@@ -210,7 +213,6 @@
 
   }
 
-}
 
 /* These rules are for screen sizes that are 800px or smaller */
 @media (max-width: 800px) {
